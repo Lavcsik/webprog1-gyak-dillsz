@@ -27,3 +27,35 @@
 		}
 		}
 ?>
+
+	<style>
+		th{
+			text-align:left;
+			width:30ch;
+			overflow-wrap:break-word;
+			word-break:break-all;
+		}
+	</style>
+
+<table>
+  <thead>
+    <tr>
+      <th>Küldő</th>
+      <th>Üzenet</th>
+    </tr>
+  </thead>
+  <tbody>
+    <?php
+	  	$stmt = $connect->prepare('SELECT * FROM uzenetek');
+  		$stmt->execute();
+        while ($data = $stmt->fetch(PDO::FETCH_ASSOC)) {
+    ?>
+    <tr>
+      <th><?php echo $data['kuldo']; ?></th>
+      <th><?php echo $data['kuzenet']; ?></th>
+    </tr>
+    <?php
+        }
+    ?>
+  </tbody>
+</table>
