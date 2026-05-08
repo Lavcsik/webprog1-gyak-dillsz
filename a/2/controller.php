@@ -11,8 +11,8 @@
         $route=$_SERVER['QUERY_STRING'];
         if($route=="") include("main.php");
         if($route=="submitrendeles") include("submitrendeles.php");
-        if(str_contains($route,"edituser")) include("edituser.php");
-        if(str_contains($route,"deleteuser")) include("deleteuser.php");         
+        if(str_contains($route,"editrendeles")) include("editrendeles.php");
+        if(str_contains($route,"deleterendeles")) include("deleterendeles.php");         
     ?>
 </body>
 </html>

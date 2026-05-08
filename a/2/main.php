@@ -27,8 +27,8 @@
 	  <td><?php echo $data['kiszallitas']; ?></td>
       <td>
         <?php
-            echo '<a href="edituser?az='.$data['az'].'"><button class="btn btn-primary">Szerkesztés</button></a> ';
-            echo '<a href="deleteuser?az='.$data['az'].'"><button class="btn btn-danger">Törlés</button></a>';
+            echo '<a href="editrendeles?az='.$data['az'].'"><button class="btn btn-primary">Szerkesztés</button></a> ';
+            echo '<a href="deleterendeles?az='.$data['az'].'"><button class="btn btn-danger">Törlés</button></a>';
         ?>
       </td>
     </tr>
