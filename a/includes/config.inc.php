@@ -1,18 +1,18 @@
 <?php
 $ablakcim = array(
-    'cim' => 'Mini honlap Kft.',
+    'cim' => 'Fiktív Fincsi Pizza Kft.',
 );
 
 $fejlec = array(
     'kepforras' => 'logo.png',
     'kepalt' => 'logo',
-	'cim' => 'Mini honlap',
+	'cim' => 'Fiktív Fincsi Pizza',
 	'motto' => ''
 );
 
 $lablec = array(
     'copyright' => 'Copyright '.date("Y").'.',
-    'ceg' => 'Mini honlap Kft.'
+    'ceg' => 'Fiktív Fincsi Pizza'
 );
 
 $oldalak = array(

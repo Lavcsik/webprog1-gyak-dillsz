@@ -24,7 +24,7 @@
         <input type="number" name="darab" class="form-control" placeholder="Rendelt mennyiség"><br />
         <input type="datetime" name="felvetel" class="form-control" placeholder="Felvétel időpontja"><br />
 		<input type="datetime" name="kiszallitas" class="form-control" placeholder="Kiszállítás időpontja"><br />
-        <button  class="btn btn-primary">Submit</button>
-        <a href="."><button class="btn btn-danger">Main page</button></a>
+        <button  class="btn btn-primary">Hozzáadás</button>
+        <a href="."><button class="btn btn-danger">Vissza</button></a>
     </div>
 </form>

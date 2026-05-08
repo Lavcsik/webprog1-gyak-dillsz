@@ -8,12 +8,12 @@ th, td {
     font-size: small;
 }
 th {
-    color: #1E459E;
-    background-color: #b9c9fe;
-    border-top: 5px solid #AABCFE;
+    color: #574600;
+    background-color: #ce7019;
+    border-top: 5px solid #990000;
 }
 td {
-    color: #7274a5;
-    background-color: #d0dafd;
+    color: #a57272;
+    background-color: #f7ddad;
     border-top: 3px solid #FFFFFF;
 }

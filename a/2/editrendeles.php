@@ -27,7 +27,7 @@
         <input type="number" value="<?php echo $userData['darab']; ?>" name="darab" class="form-control" placeholder="Rendelt mennyiség"><br />
         <input type="datetime" value="<?php echo $userData['felvetel']; ?>" name="felvetel" class="form-control" placeholder="Felvétel időpontja"><br />
 		<input type="datetime" value="<?php echo $userData['kiszallitas']; ?>" name="kiszallitas" class="form-control" placeholder="Kiszállítás időpontja"><br />
-        <button class="btn btn-primary">Hozzáadás</button>
-        <a href="."><button class="btn btn-danger">Főoldal</button></a>
+        <button class="btn btn-primary">Frissítés</button>
+        <a href="."><button class="btn btn-danger">Vissza</button></a>
     </div>
 </form>
