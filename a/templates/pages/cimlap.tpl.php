@@ -4,8 +4,8 @@
 </div>
 <h2>Kutya</h2>
 <video width="500" height="300" controls>
-<source src="kutya.mp4" type="video/mp4">
-<source src="kutya.ogg" type="video/ogg">
+<source src="videos/kutya.mp4" type="video/mp4">
+<source src="videos/kutya.ogg" type="video/ogg">
 A videó a böngészője által nem támogatott!
 </video>
 <h2>Weboldal fizikai címe</h2>

@@ -9,7 +9,7 @@
 
     <form name="kapcsolat" action="kuldes" onsubmit="return ellenoriz();" method="POST">
         <div>
-            <label> <textarea id="szoveg" name="szoveg" cols="40" rows="10"></textarea> Üzenet (kötelező): </label>
+            <label> <textarea id="szoveg" name="szoveg" cols="40" rows="10"></textarea> Üzenet (kötelező! max. 100 karakter): </label>
             <br/>
             <input id="kuzenet" type="submit" value="Küld">
             <button onclick="ellenoriz();" type="button">Ellenőriz</button>

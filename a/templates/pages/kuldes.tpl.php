@@ -53,6 +53,7 @@
     <tr>
       <th><?php echo $data['kuldo']; ?></th>
       <th><?php echo $data['kuzenet']; ?></th>
+	  <th><?php echo $data['mikor']; ?></th>
     </tr>
     <?php
         }

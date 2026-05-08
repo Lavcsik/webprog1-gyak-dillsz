@@ -26,7 +26,11 @@
         }        
     }
     // Megjelenítés logika:
-?><!DOCTYPE html>
+?>
+<?php
+if(isset($_SESSION["login"])) {
+?>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -61,3 +65,5 @@
       </form>    
 </body>
 </html>
+<?php } else { ?>
+<h2>Nincs bejelentkezve!</h2> <?php } ?>
